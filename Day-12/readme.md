@@ -1,6 +1,6 @@
 ## Time Complexity:
 
-Your for loop iterates from 1 to n, so its time complexity is O(n)—linear in the number of iterations.
+Your for loop iterates from 1 to n, so its time complexity is O(n) - linear in the number of iterations.
 
 ## disp(i) Overhead:
 
@@ -12,11 +12,11 @@ This makes the actual runtime non-linear in appearance, especially for small inp
 
 For n=100, the time was lower than for n=10 (0.0139s vs 0.0336s). This may seem incorrect but is due to:
 
-*System caching or warm-up effects
+* System caching or warm-up effects
 
-*Timer resolution limits
+* Timer resolution limits
 
-*Low loop body complexity (just printing)
+* Low loop body complexity (just printing)
 
 These factors make the timing non-deterministic at small scales.
 
