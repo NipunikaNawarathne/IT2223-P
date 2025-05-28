@@ -1,0 +1,9 @@
+number = input("Enter number for factorial: ");
+
+fact=1;
+
+for i = 2:number
+    fact = fact*i;
+end
+
+disp(['Factorial: ', num2str(fact)]);
