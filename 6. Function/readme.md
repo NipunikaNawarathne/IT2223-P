@@ -17,3 +17,7 @@
 ## operations
 
 ![operations](https://github.com/user-attachments/assets/ea07c15b-1119-4be5-a04b-ce06acd75989)
+
+## factorial
+
+![factorial](https://github.com/user-attachments/assets/36157688-2f3b-496f-b373-0c379c1fff21)
