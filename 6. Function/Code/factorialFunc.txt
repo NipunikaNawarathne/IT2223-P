@@ -1,0 +1,16 @@
+number = input('Enter number for factorial: ');
+
+% Call the function and store result
+result = factorialFun(number);
+
+% Display result
+disp(['Factorial: ', num2str(result)]);
+
+% Function definition
+function factorial = factorialFun(number)
+    if number == 0 || number == 1
+        factorial = 1;
+    else
+        factorial = number * factorialFun(number - 1);
+    end
+end
